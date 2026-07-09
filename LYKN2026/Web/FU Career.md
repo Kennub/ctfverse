@@ -27,7 +27,7 @@
     - Tới đây cũng hết những gì chúng ta có thể làm rồi, tương tác với những phần khác cũng chẳng có thêm giá trị gì. Chúng ta sẽ kiểm tra file source code của hệ thống đi kèm trong đề bài
     - Bắt đầu với file `Dockerfile`, đây là file Docker của hệ thống, chúng ta phát hiện 1 vài thông tin quan trọng sau mà lập trình viên đã "bỏ quên" :
       - File flag có tên là part2.txt, nằm ở thư mục `/` và chỉ có thể xem với quyền `root`
-      - Lệnh INTO OUTFILE CỦA mysql có thể sử dụng ở khắp nơi, không bị hạn chế
+      - Lệnh `INTO OUTFILE` CỦA mysql có thể sử dụng ở khắp nơi, không bị hạn chế
         
         <img width="682" height="190" alt="image" src="https://github.com/user-attachments/assets/d845e515-4aa2-4f87-8fc9-c6370a667314" />
 
