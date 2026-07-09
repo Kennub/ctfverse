@@ -55,8 +55,24 @@
 
       <img width="550" height="323" alt="image" src="https://github.com/user-attachments/assets/aea9b3ee-793d-4b15-b32a-b0f66358441c" />
 
+    - Sau khi thử hết cả 4 tài khoản trên, chúng ta tìm được `hr.fehn` chính là tài khoản admin, từ đây chúng ta sẽ reset mật khẩu
+
+      <img width="603" height="580" alt="image" src="https://github.com/user-attachments/assets/ee9d6734-b6fa-441d-a75a-ac03dce129e7" />
+
+    - Giờ chúng ta sẽ đưa vào Burp Suite, dùng tính năng Intruder để bruteforce OTP (Bởi chẳng có cách nào khác để tìm được otp cả...)
+
+      <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cead2382-b829-4ce9-b22b-d99ae4de46e1" />
+
+      <img width="1878" height="387" alt="image" src="https://github.com/user-attachments/assets/3390fd1d-2608-4b63-89f6-8e26c71c32ad" />
+
+    - Từ đó ta tìm được OTP là `8179`
+    - Sau khi vào được tài khoản admin, ta thấy được Part 1 của flag:
+
+      <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/14f8a30e-77f5-4c1c-836c-3f336e566041" />
+
 # Kết bài
   - Filter SQL thật kĩ càng, tránh nối chuỗi trực tiếp, tạo đường cho hacker sử dụng kĩ thuật SQLi
+
 CẢM ƠN BẠN ĐÃ ĐỌC!
 
 
